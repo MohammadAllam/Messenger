@@ -6,6 +6,8 @@ target 'Messenger' do
   use_frameworks!
 
   # Pods for Messenger
+  pod 'RxSwift'
+  pod 'RxCocoa'
 
   target 'MessengerTests' do
     inherit! :search_paths
