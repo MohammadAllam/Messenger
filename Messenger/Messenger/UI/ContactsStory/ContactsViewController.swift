@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ContactsViewController: UIViewController, BindableType {
 
     // MARK: ViewModel
     var viewModel: ContactsViewModelType!
 
+    // MARK: IBOutlets
+    @IBOutlet weak var button_contacts: UIButton!
+
+    // MARK: Private
+    private var disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,5 +29,13 @@ class ContactsViewController: UIViewController, BindableType {
 
     func bindViewModel() {
 
+        let inputs = viewModel.inputs
+
+        button_contacts.rx.action = inputs.addContactsAction
+//        button_contacts.rx.tap.asObservable()
+//            .do(onNext: {
+////                inputs.getContacts()
+//            })
+//        .dispos
     }
 }

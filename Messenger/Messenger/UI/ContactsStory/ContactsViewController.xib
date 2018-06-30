@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactsViewController" customModule="Messenger" customModuleProvider="target">
             <connections>
+                <outlet property="button_contacts" destination="jju-fj-gcJ" id="2WL-eS-nxu"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Gwv-ag-I15"/>
             </connections>
         </placeholder>
