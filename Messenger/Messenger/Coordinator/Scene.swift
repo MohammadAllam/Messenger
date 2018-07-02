@@ -9,7 +9,7 @@
 import UIKit
 
 enum Scene{
-    case contacts(ContactsViewModel)
+    case contacts(FetchContactsViewModel)
 //    case chat
 }
 
@@ -17,7 +17,7 @@ extension Scene{
     func viewController() -> UIViewController {
         switch self {
         case let .contacts(viewModel):
-            var vc = ContactsViewController.instantiateFromNib()
+            var vc = FetchContactsViewController.instantiateFromNib()
             vc.bind(to: viewModel)
             return vc
 //        case .chat:

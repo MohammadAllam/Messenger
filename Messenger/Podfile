@@ -9,6 +9,7 @@ target 'Messenger' do
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'Action'
+    pod 'RxRealm'
 
     target 'MessengerTests' do
         inherit! :search_paths

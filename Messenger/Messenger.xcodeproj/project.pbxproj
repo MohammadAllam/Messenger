@@ -13,15 +13,16 @@
 		5A1DEA7220E0CDAE00AF0CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DEA7020E0CDAE00AF0CF4 /* LaunchScreen.storyboard */; };
 		5A1DEA7D20E0CDAE00AF0CF4 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA7C20E0CDAE00AF0CF4 /* MessengerTests.swift */; };
 		5A1DEA8820E0CDAE00AF0CF4 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA8720E0CDAE00AF0CF4 /* MessengerUITests.swift */; };
-		5A1DEA9920E0CF6E00AF0CF4 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA9820E0CF6E00AF0CF4 /* ContactsViewController.swift */; };
+		5A1DEA9920E0CF6E00AF0CF4 /* FetchContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA9820E0CF6E00AF0CF4 /* FetchContactsViewController.swift */; };
 		5A1DEA9C20E0F2E700AF0CF4 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA9B20E0F2E700AF0CF4 /* Scene.swift */; };
 		5A1DEA9F20E0F63F00AF0CF4 /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEA9E20E0F63F00AF0CF4 /* NibIdentifiable.swift */; };
 		5A1DEAA120E0F85A00AF0CF4 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA020E0F85A00AF0CF4 /* BindableType.swift */; };
-		5A1DEAA320E0F95000AF0CF4 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA220E0F95000AF0CF4 /* ContactsViewModel.swift */; };
+		5A1DEAA320E0F95000AF0CF4 /* FetchContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA220E0F95000AF0CF4 /* FetchContactsViewModel.swift */; };
 		5A1DEAA520E0FDB400AF0CF4 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA420E0FDB400AF0CF4 /* ContactsViewController.xib */; };
 		5A1DEAA720E0FEF400AF0CF4 /* SceneTransistionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA620E0FEF400AF0CF4 /* SceneTransistionType.swift */; };
 		5A1DEAA920E0FF3600AF0CF4 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAA820E0FF3600AF0CF4 /* SceneCoordinatorType.swift */; };
 		5A1DEAAB20E100F900AF0CF4 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAAA20E100F900AF0CF4 /* SceneCoordinator.swift */; };
+		5A1DEAAF20E7706300AF0CF4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DEAAE20E7706300AF0CF4 /* Contact.swift */; };
 		711BDAEB6C6B54914354F8D1 /* Pods_MessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605AC42026B34D36B52021FC /* Pods_MessengerTests.framework */; };
 		74491AC51E0C12D436AAEE0D /* Pods_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9675A53EC95ACF7E0D566EAF /* Pods_Messenger.framework */; };
 		C92A265764B72A8EAAD69E10 /* Pods_MessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88DAEA4C24A41094376EFFA /* Pods_MessengerUITests.framework */; };
@@ -61,15 +62,16 @@
 		5A1DEA8320E0CDAE00AF0CF4 /* MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1DEA8720E0CDAE00AF0CF4 /* MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITests.swift; sourceTree = "<group>"; };
 		5A1DEA8920E0CDAE00AF0CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A1DEA9820E0CF6E00AF0CF4 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		5A1DEA9820E0CF6E00AF0CF4 /* FetchContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContactsViewController.swift; sourceTree = "<group>"; };
 		5A1DEA9B20E0F2E700AF0CF4 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		5A1DEA9E20E0F63F00AF0CF4 /* NibIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
 		5A1DEAA020E0F85A00AF0CF4 /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
-		5A1DEAA220E0F95000AF0CF4 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		5A1DEAA220E0F95000AF0CF4 /* FetchContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContactsViewModel.swift; sourceTree = "<group>"; };
 		5A1DEAA420E0FDB400AF0CF4 /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
 		5A1DEAA620E0FEF400AF0CF4 /* SceneTransistionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransistionType.swift; sourceTree = "<group>"; };
 		5A1DEAA820E0FF3600AF0CF4 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		5A1DEAAA20E100F900AF0CF4 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		5A1DEAAE20E7706300AF0CF4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		605AC42026B34D36B52021FC /* Pods_MessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9675A53EC95ACF7E0D566EAF /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0C9AF31966EAAB49E06391 /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		5A1DEA9620E0CF2000AF0CF4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5A1DEAAE20E7706300AF0CF4 /* Contact.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,8 +182,8 @@
 		5A1DEA9720E0CF3D00AF0CF4 /* ContactsStory */ = {
 			isa = PBXGroup;
 			children = (
-				5A1DEA9820E0CF6E00AF0CF4 /* ContactsViewController.swift */,
-				5A1DEAA220E0F95000AF0CF4 /* ContactsViewModel.swift */,
+				5A1DEA9820E0CF6E00AF0CF4 /* FetchContactsViewController.swift */,
+				5A1DEAA220E0F95000AF0CF4 /* FetchContactsViewModel.swift */,
 				5A1DEAA420E0FDB400AF0CF4 /* ContactsViewController.xib */,
 			);
 			path = ContactsStory;
@@ -374,13 +377,19 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Messenger/Pods-Messenger-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,11 +535,12 @@
 			files = (
 				5A1DEAAB20E100F900AF0CF4 /* SceneCoordinator.swift in Sources */,
 				5A1DEA6820E0CDAC00AF0CF4 /* AppDelegate.swift in Sources */,
+				5A1DEAAF20E7706300AF0CF4 /* Contact.swift in Sources */,
 				5A1DEAA920E0FF3600AF0CF4 /* SceneCoordinatorType.swift in Sources */,
 				5A1DEAA720E0FEF400AF0CF4 /* SceneTransistionType.swift in Sources */,
-				5A1DEAA320E0F95000AF0CF4 /* ContactsViewModel.swift in Sources */,
+				5A1DEAA320E0F95000AF0CF4 /* FetchContactsViewModel.swift in Sources */,
 				5A1DEA9F20E0F63F00AF0CF4 /* NibIdentifiable.swift in Sources */,
-				5A1DEA9920E0CF6E00AF0CF4 /* ContactsViewController.swift in Sources */,
+				5A1DEA9920E0CF6E00AF0CF4 /* FetchContactsViewController.swift in Sources */,
 				5A1DEA9C20E0F2E700AF0CF4 /* Scene.swift in Sources */,
 				5A1DEAA120E0F85A00AF0CF4 /* BindableType.swift in Sources */,
 			);
@@ -707,8 +717,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QZS3B4R3B;
 				INFOPLIST_FILE = Messenger/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -722,8 +736,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QZS3B4R3B;
 				INFOPLIST_FILE = Messenger/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.Messenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -739,7 +757,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MessengerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.MessengerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -756,7 +778,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MessengerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.MessengerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -772,7 +798,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MessengerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.MessengerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -788,7 +818,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MessengerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Allam.MessengerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
